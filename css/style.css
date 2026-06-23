@@ -116,7 +116,7 @@ a, a:hover {
 }
 
 .unslate_co--site-inner {
-  margin-bottom: 400px;
+  margin-bottom: 0px !important;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -128,8 +128,23 @@ a, a:hover {
   }
 }
 
+.unslate_co--site-wrap, 
+.unslate_co--site-inner {
+    display: block !important;
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.unslate_co--section {
+  padding-bottom: 30px !important;
+}
+
 .unslate_co--footer {
-  position: fixed !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  position: relative !important;
   width: 100%;
   background-color: #000;
   color: #fff;
@@ -137,7 +152,7 @@ a, a:hover {
   right: 0;
   bottom: 0px;
   z-index: -1;
-  height: 400px;
+  height: auto !important;
 }
 
 @media (max-width: 991.98px) {
