@@ -464,9 +464,10 @@
     </div>
     <div class="row justify-content-between">
       <div class="col-md-6">
-        <form action="https://api.web3forms.com/submit" method="POST" class="form-outline-style-v1" id="contactForm">
+        <form action="https://api.web3forms.com/submit" method="POST" class="form-outline-style-v1">
           <input type="hidden" name="access_key" value="b279dec0-830f-4ee2-8629-0897ccaa80df">
           <input type="hidden" name="_subject" value="Contato - Kactus Studio Website">
+          <input type="hidden" name="apikey" value="b279dec0-830f-4ee2-8629-0897ccaa80df">
           
           <div class="form-group row mb-0">
             <div class="col-lg-6 form-group gsap-reveal">
@@ -478,7 +479,7 @@
               <input name="email" type="email" class="form-control" id="email" required>
             </div>
             <div class="col-lg-12 form-group gsap-reveal">
-              <label for="message">Write your message</label>
+              <label for="message">Message</label>
               <textarea name="message" id="message" cols="30" rows="7" class="form-control" required></textarea>
             </div>
             <div class="h-captcha" data-captcha="true"></div>
@@ -492,18 +493,18 @@
         </form>
         <div id="form-message-warning" class="mt-4"></div> 
         <div id="form-message-success">
-          Your message has been sent. We will respond to you soon!
+          Your message has been sent, we will respond to you soon!
         </div>
       </div>
       <div class="col-md-4">
         <div class="contact-info-v1">
           <div class="gsap-reveal d-block">
-            <span class="d-block contact-info-label">Email</span>
+            <span class="d-block contact-info-label">E-mail</span>
             <a href="mailto:kactusstudio1@gmail.com" class="contact-info-val">kactusstudio1@gmail.com</a>
           </div>
           <div class="gsap-reveal d-block">
             <span class="d-block contact-info-label">WhatsApp</span>
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=5554991899153&text=Hello,%20I%20would%20like%20to%20get%20more%20information%20about%20Kactus%20Studio." class="contact-info-val">Click here to chat with us</a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5554991899153&text=Hello,%20I%20would%20like%20more%20information%20about%20Kactus%20Studio." class="contact-info-val">Click here to chat with us</a>
           </div>
         </div>
       </div>
