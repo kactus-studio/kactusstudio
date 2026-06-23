@@ -659,64 +659,63 @@
       </div> -->
       <!-- END blog posts -->
 
-      <div class="unslate_co--section" id="contact-section">
-        <div class="container">
-          <div class="section-heading-wrap text-center mb-5">
-            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">solicite um orçamento</span></h2>
-            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+<div class="unslate_co--section" id="contact-section">
+  <div class="container">
+    <div class="section-heading-wrap text-center mb-5">
+      <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Solicite um Orçamento</span></h2>
+      <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-md-6">
+        <form action="https://formsubmit.co/kactusstudio1@gmail.com" method="POST" class="form-outline-style-v1" id="contactForm">
+          <!-- Configurações do FormSubmit -->
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="https://kactusstudio.com.br/">
+          <input type="hidden" name="_subject" value="Contato - Kactus Studio Website">
+          
+          <div class="form-group row mb-0">
+            <div class="col-lg-6 form-group gsap-reveal">
+              <label for="name">Nome</label>
+              <input name="name" type="text" class="form-control" id="name" required>
+            </div>
+            <div class="col-lg-6 form-group gsap-reveal">
+              <label for="email">E-mail</label>
+              <input name="email" type="email" class="form-control" id="email" required>
+            </div>
+            <div class="col-lg-12 form-group gsap-reveal">
+              <label for="message">Digite sua mensagem</label>
+              <textarea name="message" id="message" cols="30" rows="7" class="form-control" required></textarea>
+            </div>
           </div>
-          <div class="row justify-content-between">
-            <div class="col-md-6">
-              <form action="https://formsubmit.co/kactusstudio1@gmail.com" method="POST" class="form-outline-style-v1" id="contactForm">
-              <input type="hidden" name="_captcha" value="true">
-						  <input type="hidden" name="_next" value="https://kactusstudio.com.br/">
-						  <input type="hidden" name="_subject" value="contacto - kactus studio website">
-                <div class="form-group row mb-0">
-                  <div class="col-lg-6 form-group gsap-reveal">
-                    <label for="name">nome</label>
-                    <input name="name" type="text" class="form-control" id="name">
-                  </div>
-                  <div class="col-lg-6 form-group gsap-reveal">
-                    <label for="email">email</label>
-                    <input name="email" type="email" class="form-control" id="email">
-                  </div>
-                  <div class="col-lg-12 form-group gsap-reveal">
-                    <label for="message">digite sua mensagem</label>
-                    <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
-                  </div>
-                </div>
-                <div class="form-group row gsap-reveal">
-                    <div class="col-md-12 d-flex align-items-center">
-                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="enviar">
-                      <span class="submitting"></span>
-                    </div>
-                  </div>
-              </form>
-              <div id="form-message-warning" class="mt-4"></div> 
-              <div id="form-message-success">
-                sua mensagem foi enviada, em breve te responderemos!
-              </div>
+          <div class="form-group row gsap-reveal">
+            <div class="col-md-12 d-flex align-items-center">
+              <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Enviar">
+              <span class="submitting"></span>
             </div>
-            <div class="col-md-4">
-              <div class="contact-info-v1">
-                <div class="gsap-reveal d-block">
-                  <span class="d-block contact-info-label">email</span>
-                  <a href="" class="contact-info-val">kactusstudio1@gmail.com</a>
-                </div>
-                <div class="gsap-reveal d-block">
-                  <span class="d-block contact-info-label">whatsapp</span>
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=55%2054%20991899153&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20kactus%20studio." class="contact-info-val">clique aqui e fale conosco</a>
-                </div>
-                <!-- <div class="gsap-reveal d-block">
-                  <span class="d-block contact-info-label">Address</span>
-                  <address class="contact-info-val">273 South Riverview Rd. <br> New York, NY 10011</address>
-                </div> -->
-              </div>
-            </div>
+          </div>
+        </form>
+        <div id="form-message-warning" class="mt-4"></div> 
+        <div id="form-message-success">
+          Sua mensagem foi enviada, em breve te responderemos!
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-info-v1">
+          <div class="gsap-reveal d-block">
+            <span class="d-block contact-info-label">E-mail</span>
+            <!-- CORREÇÃO: Adicionado mailto: e o endereço de e-mail -->
+            <a href="mailto:kactusstudio1@gmail.com" class="contact-info-val">kactusstudio1@gmail.com</a>
+          </div>
+          <div class="gsap-reveal d-block">
+            <span class="d-block contact-info-label">WhatsApp</span>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5554991899153&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20kactus%20studio." class="contact-info-val">Clique aqui e fale conosco</a>
           </div>
         </div>
       </div>
-      </div> <!-- END .unslate_co-site-inner -->
+    </div>
+  </div>
+</div>
+      <!-- END .unslate_co-site-inner -->
 
       <footer class="unslate_co--footer unslate_co--section">
         <div class="container">
