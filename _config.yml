@@ -1,0 +1,37 @@
+# ==========================================
+# Configurações Principais do Site
+# ==========================================
+title: "kactus studio"
+description: "Agência de publicidade digital especializada em criação de marcas, identidade visual, design gráfico, marketing digital, inbound marketing, endomarketing, edição de vídeos, webdesign, correção de arquivos e ajustes para impressão gráfica."
+url: "https://kactusstudio.com.br" # URL base do seu site
+baseurl: "/kactus-studio"          # Nome do repositório (deixe "" se for seu site principal usuario.github.io)
+
+# ==========================================
+# Estrutura de URLs Limpas
+# ==========================================
+permalink: pretty                   # Transforma /pagina.html em /pagina/
+
+# ==========================================
+# Tema e Idioma
+# ==========================================
+theme: minima                        # Tema padrão suportado pelo GitHub Pages
+lang: pt-BR
+
+# ==========================================
+# Plugins Suportados pelo GitHub Pages
+# ==========================================
+plugins:
+  - jekyll-feed                     # Gera o feed RSS automático (feed.xml)
+  - jekyll-seo-tag                  # Adiciona meta tags de SEO e OpenGraph (redes sociais)
+  - jekyll-sitemap                  # Gera o sitemap.xml automaticamente
+
+# ==========================================
+# Exclusão de Arquivos
+# ==========================================
+# Impede que arquivos de desenvolvimento sejam compilados na pasta final do site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+  - vendor/
